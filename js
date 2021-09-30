@@ -23,3 +23,16 @@ var max = function(list){
     return Math.max(...list);
 }
 
+// Math.Min + IndexOf:
+
+function min(arr, toReturn) {
+  let result = 0;
+  
+  if (toReturn === "value"){
+    result = Math.min(...arr);
+    
+  } else{
+    result = arr.indexOf(Math.min(...arr));
+  }
+  return result;
+  }
