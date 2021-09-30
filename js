@@ -36,3 +36,16 @@ function min(arr, toReturn) {
   }
   return result;
   }
+
+// Math.Min for arrays:
+
+class SmallestIntegerFinder {
+  findSmallestInt(args) {
+    return Math.min(...args);
+  }
+}
+
+//Cicle circumference:
+function circleCircumference(circle) {
+  return 2 * Math.PI * circle.radius;
+}
